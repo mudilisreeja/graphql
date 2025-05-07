@@ -1,3 +1,5 @@
+
+
 export const courses=[
     { id: "1", title: "Mathematics", subject_id:"1",marks_id:"2"},
     { id: "2", title: "Physics",subject_id:"2",marks_id:"1" },
@@ -14,9 +16,10 @@ export const subjects=[
     { id: "5", name: "Data Structures" }
 ]
 export const marks=[
-    { id: "1", name: "85" },
-    { id: "2", name: "90" },
-    { id: "3", name: "78" },
-    { id: "4", name: "92" },
-    { id: "5", name: "88" }
+    { id: "1", value: "85" },
+    { id: "2", value: "90" },
+    { id: "3", value: "78" },
+    { id: "4", value: "92" },
+    { id: "5", value: "88" }
 ]
+export default {courses,subjects,marks}
